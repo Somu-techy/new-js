@@ -1,9 +1,9 @@
 // array
 
 const myArr = [0, 1, 2, 3, 4, 5]; 
-// const myHeros = ["shaktiman", "batman", "superman", "spiderman"];
-// const myArr2 = new Array(1,2,3,4); 
-// // different ways to declare an array
+const myHeros = ["shaktiman", "batman", "superman", "spiderman"];
+const myArr2 = new Array(1,2,3,4); 
+ // different ways to declare an array
 
 // console.log(myArr[3]); // 0
 // console.log(myArr2); 
