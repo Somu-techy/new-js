@@ -25,10 +25,10 @@ const JsUser = {
 // console.log(JsUser);
 
 
-// JsUser.email = "somu@chatgpt.com"
-// // Object.freeze(JsUser) // freezes the object , values can't be modified
-// JsUser.email = "somu@microsoft.com"
-// console.log(JsUser);
+JsUser.email = "somu@chatgpt.com"
+// Object.freeze(JsUser) // freezes the object , values can't be modified
+JsUser.email = "somu@microsoft.com"
+console.log(JsUser);
 
 
 JsUser.greeting = function(){
