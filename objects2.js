@@ -60,3 +60,16 @@ console.log(Object.values(tinderuser));
 console.log(Object.entries(tinderuser));
 
 console.log(tinderuser.hasOwnProperty('isLoggedIn'));// ask if the property is in the object, returns boolean result
+
+//##################################################
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Somu"
+}
+
+// object de-structure
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
