@@ -34,6 +34,38 @@ function loginUserMessage(username){
     return `${username} just logged in`
 }
 
-console.log(loginUserMessage("Somu"))
+// console.log(loginUserMessage("Somu"))
 
 // console.log(loginUserMessage()) //undefined
+
+// ##################################################
+
+function calculateCartPrice(val1, val2, ...num1){ // using rest operator '...'
+    return num1
+}
+// console.log(calculateCartPrice(200, 400, 500, 600, 900))
+
+const user = {
+    username : "Somu",
+    price : 199
+
+}
+
+function handleobject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleobject(user) // passing the object name user as arguments
+
+handleobject({
+    username: "Sam",
+    price: 399
+}) // we can directly create object and pass arguments
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getarray){
+    return getarray[1]
+}
+
+console.log(returnSecondValue(myNewArray));
