@@ -24,9 +24,39 @@ function one(){
     function two(){
         const website = "youtube"
         console.log(username);
+        console.log(website);
+        
     }
+    // console.log(website);// this is out of scope of function two 
+   two()
+}
+one()
+
+
+if(true){
+    const username = "Somu"
+    if (username === "Somu"){
+        const website = " youtube"
+        console.log(username + website);
+    }
+    // console.log(website); // out of scope
+    
+}
+// console.log(username); // out of scope
+
+
+// ################################################
+
+console.log(addone(5))// this can be done
+
+function addone(num) {
+    return num + 1
+    
 }
 
 
+addTWo()// this cannot be done 
 
-
+const addTWo = function(num){
+    return num + 2
+}
